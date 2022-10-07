@@ -138,6 +138,10 @@ config("internal_config") {
     "-Wno-sign-conversion",
     "-Wno-undefined-func-template",
     "-Wno-weak-vtables",
+    "-Wno-unknown-warning-option",
+    "-Wno-reserved-identifier",
+    "-Wno-suggest-destructor-override",
+    "-Wno-unused-but-set-variable",
   ]
 
   if (!use_xcode_clang) {
