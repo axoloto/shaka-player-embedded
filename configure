@@ -56,7 +56,7 @@ PLATFORM_SPECIFIC_SETTINGS = {
     'darwin': {
         'enable_dsyms': True,
         'mac_deployment_target': '12.3.1',
-        'ios_deployment_target': '10.0',
+        'ios_deployment_target': '15.4',
     },
 }
 
