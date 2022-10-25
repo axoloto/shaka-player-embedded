@@ -757,7 +757,7 @@ def _ParseArgs(args):
     parser.error('Can only build for iOS on Mac.')
   if parsed_args.is_ubsan and parsed_args.is_debug:
     parser.error('Can only use --ubsan with --release.')
-  if not parsed_args.enable_shared and not parsed_args.enabled_static:
+  if not parsed_args.enable_shared and not parsed_args.enable_static:
     parser.error('Not configured to build something; use --enable-static or '
                  '--enable-shared.')
   if os.path.abspath(os.getcwd()) == os.path.abspath(ROOT_DIR):
